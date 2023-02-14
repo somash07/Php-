@@ -11,7 +11,6 @@
 
     //creating a  ob
     $conn=mysqli_connect($servername,$username,$password);
-
     //checking connection
     if(!$conn){
         die("connection failed");
